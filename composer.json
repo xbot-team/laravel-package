@@ -1,43 +1,42 @@
 {
-  "name": "xbot-team/:package_name",
+  "name": "xbot-team/package",
   "description": ":package_description",
   "keywords": [
     "xbot",
-    ":package_name",
+    "package",
     "laravel-package"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/xbot-team/:package_name",
+  "homepage": "https://github.com/xbot-team/laravel-package",
   "authors": [
     {
-      "name": "xbot-team",
+      "name": ":author_name",
       "email": "team@xbot.my",
       "homepage": "https://team.xbot.my"
     }
   ],
   "require": {
     "php": "^8.3",
-    "illuminate/support": "^11.0||^12.0",
-    "illuminate/contracts": "^11.0||^12.0"
+    "ext-readline": "*",
+    "illuminate/support": "^11.0||^12.0||^13.0",
+    "illuminate/contracts": "^11.0||^12.0||^13.0"
   },
   "require-dev": {
-    "laravel/pint": "^v1.27",
+    "laravel/pint": "^1.28",
     "pestphp/pest": "^4.0",
     "pestphp/pest-plugin-arch": "^4.0",
     "pestphp/pest-plugin-laravel": "^4.0",
-    "orchestra/testbench": "^9.0.0||^10.0.0",
-    "nunomaduro/collision": "^8.8"
+    "orchestra/testbench": "^9.0.0||^10.0.0||^11.0.0",
+    "nunomaduro/collision": "^v8.9.4"
   },
   "autoload": {
     "psr-4": {
-      "XBot\\Package\\": "src/",
-      "XBot\\Package\\Database\\Factories\\": "database/factories/"
+      "XBot\\Package\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "XBot\\Package\\Tests\\": "tests/",
-      "Workbench\\App\\": "workbench/app/"
+      "XBot\\Package\\Tests\\": "tests/"
     }
   },
   "scripts": {

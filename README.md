@@ -2,9 +2,9 @@
 
 :package_description
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/xbot-team/:package_name.svg?style=flat-square)](https://packagist.org/packages/xbot-team/:package_name)
-[![Total Downloads](https://img.shields.io/packagist/dt/xbot-team/:package_name.svg?style=flat-square)](https://packagist.org/packages/xbot-team/:package_name)
-[![License](https://img.shields.io/packagist/l/xbot-team/:package_name.svg?style=flat-square)](https://packagist.org/packages/xbot-team/:package_name)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/xbot-team/package.svg?style=flat-square)](https://packagist.org/packages/xbot-team/package)
+[![Total Downloads](https://img.shields.io/packagist/dt/xbot-team/package.svg?style=flat-square)](https://packagist.org/packages/xbot-team/package)
+[![License](https://img.shields.io/packagist/l/xbot-team/package.svg?style=flat-square)](https://packagist.org/packages/xbot-team/package)
 [![PHP Version](https://img.shields.io/badge/php-%5E8.3-blue.svg?style=flat-square)](https://php.net)
 [![Laravel](https://img.shields.io/badge/laravel-%5E11.0%7C%7C%5E12.0-ff2d20.svg?style=flat-square)](https://laravel.com)
 
@@ -13,7 +13,7 @@
 You can install the package via composer:
 
 ```bash
-composer require xbot-team/:package_name
+composer require xbot-team/package
 ```
 
 ### Laravel 11 / Laravel 12
@@ -35,7 +35,7 @@ If you are using Laravel 10 or below, you need to register the service provider 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag=":package_name-config"
+php artisan vendor:publish --tag="package-config"
 ```
 
 This is the contents of the published config file:
@@ -96,7 +96,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_name)
+- [Tester](https://github.com/Tester)
 - [All Contributors](../../contributors)
 
 ## License
